@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "AD";
+}
+
+<h1>AD</h1>
+<a href="/Second"> Перейти на Index </a>
+
+<ul>
+    @for (int i = 0; i < ViewBag.NumTimes; i++)
+    {
+        <li>@ViewBag.Message</li>
+    }
+</ul>
+
