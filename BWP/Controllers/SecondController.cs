@@ -14,7 +14,7 @@ namespace BWP.Controllers
         }
 
 
-        public IActionResult AD(string name, int numTimes)
+        public IActionResult AD(string name, long numTimes)
         {
             ViewBag.Message = "Hello " + name;
             ViewBag.NumTimes = numTimes;
